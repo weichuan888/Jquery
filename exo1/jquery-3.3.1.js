@@ -1,9 +1,21 @@
 $(document).ready(function(e) {
-  $(".d")
-    .parent()
-    .addClass('g')
-})
+  $('p', '.a')
+    .css('display' , 'none')
+    .each(function(index, element) {
+      var x = $(this)
+      setTimeout(
+        function() {
+          x.css("display" , "block")
+        }, 1000 * (index + 1)
+      )
+    });
+});
 
+// $(document).ready(function(e) {
+//   $(".d")
+//     .parent()
+//     .addClass('g')
+// })
 
 // $(function(e) {
 //   $('p', '.a')

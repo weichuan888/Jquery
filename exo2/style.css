@@ -1,0 +1,43 @@
+
+  
+  /* font awesome icons */
+  
+  
+
+
+.test {
+    display: inline-flex;
+    margin: 5%;
+    
+}
+p {
+    background-color: pink;
+    position: absolute;
+    text-align: justify;
+    width: 11%;
+    margin-left: -35px;
+
+
+}
+
+/* .truc {
+    position: relative;
+  }
+  .truc span {
+    margin-left: -999em;
+    position: absolute;
+  }
+  
+  .truc:hover span {
+    font-family: Calibri, Tahoma, Geneva, sans-serif;
+    position: absolute;
+    left: 1em;
+    top: 2em;
+    z-index: 99;
+    margin-left: 0;
+    width: 250px;
+  }
+  
+  .patate{
+    background-color:grey;
+  } */
